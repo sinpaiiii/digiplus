@@ -1,15 +1,15 @@
 {
   "main.css": "/digiplus/static/css/main.7dc1577e.chunk.css",
-  "main.js": "/digiplus/static/js/main.992832a9.chunk.js",
-  "main.js.map": "/digiplus/static/js/main.992832a9.chunk.js.map",
+  "main.js": "/digiplus/static/js/main.5de6a494.chunk.js",
+  "main.js.map": "/digiplus/static/js/main.5de6a494.chunk.js.map",
   "static/css/1.39f49839.chunk.css": "/digiplus/static/css/1.39f49839.chunk.css",
   "static/js/1.19dccbb4.chunk.js": "/digiplus/static/js/1.19dccbb4.chunk.js",
   "static/js/1.19dccbb4.chunk.js.map": "/digiplus/static/js/1.19dccbb4.chunk.js.map",
   "runtime~main.js": "/digiplus/static/js/runtime~main.02fc4703.js",
   "runtime~main.js.map": "/digiplus/static/js/runtime~main.02fc4703.js.map",
-  "static/css/1.39f49839.chunk.css.map": "/digiplus/static/css/1.39f49839.chunk.css.map",
   "static/css/main.7dc1577e.chunk.css.map": "/digiplus/static/css/main.7dc1577e.chunk.css.map",
+  "static/css/1.39f49839.chunk.css.map": "/digiplus/static/css/1.39f49839.chunk.css.map",
   "index.html": "/digiplus/index.html",
-  "precache-manifest.44d9363a33ecdd1676a1f1d7f2f289c1.js": "/digiplus/precache-manifest.44d9363a33ecdd1676a1f1d7f2f289c1.js",
+  "precache-manifest.07ddf304b8b3c1b361cec54ecc70050c.js": "/digiplus/precache-manifest.07ddf304b8b3c1b361cec54ecc70050c.js",
   "service-worker.js": "/digiplus/service-worker.js"
 }

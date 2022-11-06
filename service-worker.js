@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/digiplus/precache-manifest.44d9363a33ecdd1676a1f1d7f2f289c1.js"
+  "/digiplus/precache-manifest.07ddf304b8b3c1b361cec54ecc70050c.js"
 );
 
 workbox.clientsClaim();

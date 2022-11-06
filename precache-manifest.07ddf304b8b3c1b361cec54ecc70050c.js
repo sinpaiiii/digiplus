@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "992832a9c4c9b4bd9723",
+    "revision": "5de6a4941b38e748f280",
     "url": "/digiplus/static/css/main.7dc1577e.chunk.css"
   },
   {
-    "revision": "992832a9c4c9b4bd9723",
-    "url": "/digiplus/static/js/main.992832a9.chunk.js"
+    "revision": "5de6a4941b38e748f280",
+    "url": "/digiplus/static/js/main.5de6a494.chunk.js"
   },
   {
     "revision": "19dccbb455d8b9432847",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/digiplus/static/js/runtime~main.02fc4703.js"
   },
   {
-    "revision": "31e20acc451d0f0d028c11f2e3eaf419",
+    "revision": "c3b33213635c6af6cf554360d8e34d3d",
     "url": "/digiplus/index.html"
   }
 ];
