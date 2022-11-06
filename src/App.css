@@ -1,38 +1,167 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap");
+
+:root {
+  --fontcolor: #fc9a21;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* nav */
+.navbar-custom {
+  background-color: khaki !important;
+}
+
+.navbar-brand {
+  font-weight: 900;
+  color: yellow !important;
+  background-clip: text;
+  color: transparent;
+}
+
+.hov:hover {
+  border-bottom: 2px solid #050707 !important;
+}
+
+/* home */
+
+.welcome {
   text-align: center;
+  font-weight: bolder;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  background-color: red;
+  text-align: center;
+  border-radius: 50%;
+}
+.annoucements {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head {
+  margin-left: 10%;
+  margin-top: 10px;
+  font-weight: bolder;
+  color: var(--fontcolor);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.idata {
+  margin-left: 10%;
+  width: 15%;
+  box-shadow: 2px 2px 2px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.sw {
+  margin-left: 10%;
+  height: 230px;
+  width: 20%;
+  box-shadow: 2px 2px 2px 2px;
+  padding: 5px;
+}
+
+.sw p {
+  color: var(--fontcolor);
+}
+
+/* jobs */
+.fit {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.applications {
+  text-align: left;
+  width: 20%;
+  margin: 10px 0px 10px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.applications > p {
+  color: var(--fontcolor);
+}
+
+.applications > div {
+  background-color: lightgrey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 70%;
+  opacity: 0.7;
+  font-weight: bold;
+}
+
+.applications > div:hover {
+  opacity: 1;
+}
+
+.opt {
+  width: 60%;
+  display: flex;
+}
+
+.call {
+  width: 30%;
+  border: solid 2px #fc9a21;
+  padding: 5px;
+  height: 160px;
+  box-shadow: #ff8c00 2px 2px 2px 2px;
+}
+
+.annc {
+  width: 20%;
+  background-color: aquamarine;
+  height: 30vh;
+}
+
+/* payment */
+
+.cont {
+  display: flex;
+  margin-top: 20px;
+}
+
+.pn {
+  margin-left: 4px;
+}
+
+.pn > p {
+  background-color: lightgrey;
+  padding: 2px;
+  width: 70%;
+  opacity: 0.7;
+  font-weight: bold;
+  font-size: small;
+}
+
+.pn > p:hover {
+  opacity: 1;
+}
+.deets {
+  width: 45vw;
+  margin-left: 10px;
+  border: 1px solid #050707;
+  border-radius: 5px;
+}
+
+.earnings {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.rup {
+  font-weight: bolder;
 }
