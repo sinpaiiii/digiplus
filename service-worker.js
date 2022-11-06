@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sinpaiiii/digiplus/precache-manifest.959e1786ce9b9589658cdcf6debbc2f3.js"
+  "/digiplus/precache-manifest.69dc6149a7fb4ce016e3ed89e4274511.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/sinpaiiii/digiplus/index.html", {
+workbox.routing.registerNavigationRoute("/digiplus/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
